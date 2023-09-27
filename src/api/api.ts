@@ -15,7 +15,6 @@ export  const signup = (data:any) => {
     method: 'post',
     data
   });
-  console.log('res', res);
   return res;
 }
 
@@ -25,7 +24,6 @@ export  const signin = (data:any) => {
       method: 'post',
       data
     });
-    console.log('res', res);
     return res;
   }
   
