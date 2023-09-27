@@ -10,19 +10,23 @@ import request from './request'
 
 // 获取文章列表
 export  const signup = (data:any) => {
-  return request({
+  const res = request({
     url: '/auth/signup',
     method: 'post',
     data
-  })
+  });
+  console.log('res', res);
+  return res;
 }
 
 export  const signin = (data:any) => {
-    return request({
+    const res = request({
       url: '/auth/signin',
       method: 'post',
       data
-    })
+    });
+    console.log('res', res);
+    return res;
   }
   
 

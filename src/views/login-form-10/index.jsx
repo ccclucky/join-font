@@ -56,7 +56,7 @@ const LoginForm = () => {
             }
 
         } catch (error) {
-            console(error, 'singup err')
+            console.log(error, 'singup err')
             Notify.show('注册失败，请联系管理员')
         }
     }
@@ -73,7 +73,7 @@ const LoginForm = () => {
                 history('/profile')
             }
         } catch (error) {
-            console(error, 'login err')
+            console.log(error, 'login err')
             Notify.show('登录失败，请联系管理员')
         }
     }
