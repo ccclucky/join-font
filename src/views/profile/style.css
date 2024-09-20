@@ -1,3 +1,28 @@
+.status-message {
+    font-family: 'Arial', sans-serif; /* 可换成其他字体 */
+    color: #3498db; /* 字体颜色 */
+    font-size: 1.2rem; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 字体阴影效果 */
+  }
+  .gradient-text {
+    background: linear-gradient(90deg, #ff6f61, #d4fc79);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .fancy-effect {
+    font-weight: bold; /* 强调字体主体 */
+    font-size: 1.5rem; /* 增大字体 */
+    color: #fff; /* 确保字体颜色为白色，以便光晕能突出显示 */
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #9400d3, 0 0 15px #9932cc, 0 0 20px #ba55d3; /* 减少光晕的大小和强度 */
+    transition: all 0.3s ease; /* 平滑过渡效果 */
+  }
+  
+  .fancy-effect:hover {
+    text-shadow: 0 0 10px #8a2be2, 0 0 20px #9400d3, 0 0 30px #9932cc, 0 0 40px #ba55d3; /* 鼠标悬停时增强光效 */
+  }
+      
+
 .cover {
     width: 100vw;
 }
@@ -50,8 +75,20 @@
     font-size: 20px;
     font-weight: 800;
 }
-.content1{
-    padding: 20PX;
-    width: 100%;
-    font-size: 16PX;
-}
+.content1 {
+    background: linear-gradient(135deg, #6a5acd, #9370db); /* 背景颜色，渐变紫色 */
+    padding: 20px; /* 内边距，确保内容和边框有空间 */
+    border-radius: 15px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果，使内容更加突出 */
+    color: white; /* 确保字体颜色与背景对比鲜明 */
+    font-size: 1.2rem; /* 字体大小 */
+    text-align: center; /* 居中对齐文本 */
+    max-width: 600px; /* 设置最大宽度，避免过宽 */
+    margin: 0 auto; /* 使内容水平居中 */
+    transition: all 0.3s ease; /* 过渡效果，提升用户体验 */
+  }
+  
+  .content1:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* 悬停时增加阴影 */
+  }
+  
