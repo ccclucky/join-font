@@ -13,7 +13,7 @@ module.exports = function (app) {
   app.use(
     createProxyMiddleware("/api", {
       // target: 'http://114.132.162.245:13333',
-      target: "http://localhost:3333",
+      target: "http://43.139.169.144:3333",
       changeOrigin: true,
       pathRewrite: {
         "^/api": "",
